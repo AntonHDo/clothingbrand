@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <div className='bg-gradient-to-tr from-red-100 to-blue-500 h-screen w-full  relative'>
-        <img className='w-full h-full object-cover absolute mix-blend-overlay' src={background} />
+        <img className='w-full h-full object-cover absolute mix-blend-overlay' alt='clothes background' src={background} />
         <div className='p-24 flex justify-center items-center h-full border-2 border-rose-500'>
           <div className=' flex flex-col items-center justify-center'>
 
